@@ -55,7 +55,7 @@ function renderAllQuestions() {
   const totalQuestions = questions.length;
   
   if (questionCountDisplay) {
-      questionCountDisplay.textContent = `Attempted: ${attemptedCount}/${totalQuestions}`;
+      questionCountDisplay.textContent = `Questions : ${attemptedCount}/${totalQuestions}`;
   }
   
   if (progressBar) {
