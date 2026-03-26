@@ -149,7 +149,7 @@ function showAnalysis() {
     html += `<div class='feedback ${feedbackClass}'>${feedback}</div>`;
 
     if (q.explanation) {
-      html += `<div class='explanation-box'><b>Explanation:</b> ${q.explanation}</div>`;
+      html += `<div class='explanation-box'><b>📝 स्पष्टीकरण :</b> ${q.explanation}</div>`;
     }
 
     container.innerHTML += html;
